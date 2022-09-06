@@ -1,0 +1,83 @@
+* {
+  color: rgb(5, 193, 255);
+}
+
+.progress-container {
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  padding: 0 24px;
+  width: fit-content;
+  background-color: rgba(1, 186, 247, 0.231);
+}
+
+.progress-container ul {
+  list-style: none;
+}
+.progress-container li {
+  margin-top: 8px;
+}
+.progress-container span {
+  font-size: x-small;
+  font-weight: bold;
+}
+.step-container {
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+}
+.non-active {
+  height: 40px;
+  width: 40px;
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  border: 1px solid blue;
+}
+.active {
+  height: 40px;
+  width: 40px;
+  box-shadow: -1px 2px 2px blue;
+  border: 1px solid blue;
+  background-color: white;
+  color: blue;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.pending {
+  height: 40px;
+  text-align: center;
+  background-color: rgba(168, 167, 167, 0.45);
+  width: 40px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  color: grey;
+}
+
+.pending-text {
+  color: grey;
+}
+
+.trouble-icon-container {
+  border: 1px solid blue;
+
+  border-radius: 200px;
+
+  height: fit-content;
+  width: fit-content;
+  margin-right: 8px;
+}
+
+.trouble-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid blue;
+  background-color: white;
+  border-radius: 10px;
+  padding-left: 0.5rem;
+}
+.trouble-text {
+  font-size: small;
+}
