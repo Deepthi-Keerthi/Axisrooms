@@ -1,0 +1,22 @@
+* {
+  color: rgb(0, 162, 255);
+}
+
+.checkbox-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.button {
+  width: 20%;
+}
+
+.agodaInput {
+  width: 25rem;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid rgb(0, 162, 255);
+  padding: 0.5rem;
+}
